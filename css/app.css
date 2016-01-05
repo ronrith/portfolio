@@ -1,0 +1,50 @@
+body{
+
+}
+
+.profile{
+	border-radius: 50%;
+	width: 75%;
+	border: 4px solid #D1D1D1;
+	opacity: .5;
+}
+
+.skill li{
+	display: inline-block;
+	padding: 3px;
+	margin-bottom: 2px;
+	border: 2px solid #D1D1D1;
+	border-radius: 6px;
+}
+.skill i{
+	color: #7E7E7E;
+}
+
+.thumbnail img{
+	width: 85%;
+	opacity: .5;
+	padding: 1px;
+	-webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    
+}
+.thumbnail:hover > img{
+	opacity: 1;
+	width: 90%;
+}
+
+.devprocess div{
+	display: inline-block;
+	width: 120px; 
+	height: 110px;
+	font-size: 24px;
+	border-radius: 50%;
+	border: 3px solid #8F8EA9;
+	background: #DEDEDE;
+	text-align: center;
+	margin: 3px;
+	padding: 2px;
+
+}
