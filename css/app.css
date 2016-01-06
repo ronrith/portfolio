@@ -46,5 +46,9 @@ body{
 	text-align: center;
 	margin: 3px;
 	padding: 2px;
+	opacity: .3;
+}
 
+.devprocess div:hover{
+	opacity: .8;
 }
